@@ -1,3 +1,4 @@
+import sys
 import getopt
 import os, json, re
 from solidity_parser import parser
