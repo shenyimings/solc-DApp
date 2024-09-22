@@ -3,7 +3,7 @@
 
 import sys
 sys.path.append("./utils")
-import utils
+from utils import *
 
 if __name__ == "__main__":
     inputDir, outputDir, contractName, graph = parseArg(sys.argv[1:])
